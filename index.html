@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>π</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+        html, body {
+            text-align: center;
+            color: white;
+            background-color: #454545;
+        }
+
+        #starttext {
+            font-size: 30px;
+        }
+
+        #digits, #last {
+            word-wrap: break-word;
+        }
+
+        p {
+            display: inline;
+            font-family: Poppins;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <p id="score">Score: 0</p>
+    <br>
+    <p id="high">Highscore: 0</p>
+    <br>
+    <p id="digits">3.</p><p id="last"></p><p id="underscore">_</p>
+    <br>
+    <p id="starttext">Start typing...</p>
+    <br>
+    <p id="correction"></p>
+    <script src="index.js"></script>
+</body>
+</html>
